@@ -1,0 +1,10 @@
+COMPILING / RUNNING ON WINDOWS
+javac -cp bcprov-jdk15on-151.jar;. CryptoTests.java
+java -cp bcprov-jdk15on-151.jar;. CryptoTests
+
+COMPILING / RUNNING ON UNIX
+javac -cp .:/afs/cs.pitt.edu/usr0/bill/public/bcprov-jdk15on-151.jar CryptoTests.java
+java -cp .:/afs/cs.pitt.edu/usr0/bill/public/bcprov-jdk15on-151.jar CryptoTests
+
+OTHER INSTRUCTIONS
+When running the program the user will intially be asked if they want to type user (i)nput or generate (r)andom strings. Type 'i' to type user input and 'r' to generate random strings.
